@@ -34,5 +34,6 @@ python app.py
 
 I faced difficulty in downloading data and inserting it into the database. Initially, I had tried downloading data from and Yahoo Finance API, but the API key changes everyday. It is not a good practice to manually change the API key and I don't know if there is a way to update it automatically. 
 
-## How the application can be improved
+## How the application can be improved?
 
+1. The application must be hosted on cloud as the schedule service updates the database everyday at 18:00.
