@@ -7,5 +7,12 @@ This repository contains code for storing stock data of provided companies in a 
 
 First, install all dependencies
 ```
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
+
+Next, run the app.py Python file
+```
+python app.py
+```
+
+## My Approach to the Problem
