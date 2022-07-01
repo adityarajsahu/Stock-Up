@@ -29,3 +29,10 @@ python app.py
 3. For finding the top gainers, I calculated the change percentage in the closing prices of the previous day and current day. Then, I stored the symbol and change percentage in dict and appended it to a list. After that, I sorted the list in decreasing order and returned the first 10 elements of the list 
 4. For finding the top losers, the process was same as that of top gainers, but the list was sorted in ascending order.
 5. For the weekly report, the max value of High column, min value of Low column and mean value of Close column was calculated and returned.
+
+## Problems Encountered
+
+I faced difficulty in downloading data and inserting it into the database. Initially, I had tried downloading data from and Yahoo Finance API, but the API key changes everyday. It is not a good practice to manually change the API key and I don't know if there is a way to update it automatically. 
+
+## How the application can be improved
+
